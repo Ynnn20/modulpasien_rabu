@@ -85,7 +85,10 @@ sm">
                             <td><?= $row['nmPasien']; ?></td>
                             <td><?= $row['jk']; ?></td>
                             <td><?= $row['alamat']; ?></td>
-                            <td><a href="editpasien.php?edit=<?= $row['idPasien']; ?>" class="btn btn-warning btn-sm">Edit</a> <a href="koneksi.php?idPasien=<?= $row['idPasien']; ?>" cl ass="btn btn-danger btn-sm">Hapus</a></td>
+                            <td>
+                                <a href="editpasien.php?edit=<?= $row['idPasien']; ?>" class="btn btn-warning btn-sm">Edit</a> 
+                                <a href="koneksi.php?idPasien=<?= $row['idPasien']; ?>" class="btn btn-danger btn-sm">Hapus</a>
+                            </td>
                         </tr>
                     <?php } ?>
                 </table>
